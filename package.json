@@ -1,0 +1,16 @@
+{
+  "name": "@larsthorup/local",
+  "version": "0.1.0",
+  "description": "Simplify requiring local modules",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsthorup/node-local-require.git"
+  },
+  "keywords": [],
+  "author": "Lars Thorup <lars@zealake.com> (http://github.com/larsthorup)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larsthorup/node-local-require/issues"
+  },
+  "homepage": "https://github.com/larsthorup/node-local-require#readme"
+}
