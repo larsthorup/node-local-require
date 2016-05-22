@@ -15,7 +15,7 @@ The purpose of this module is to make it easy to keep self-contained Node module
 
 ## Verification
 
-You can optionally declare local modules and their dependencies in package.json. If so, local() will verify requests against the declaration, except if NODE_ENV is production:
+You can optionally declare local modules and their dependencies in package.json. If so, local() will verify requests against the declaration, unless NODE_ENV is production:
 
     { 
       "config": {
@@ -28,8 +28,8 @@ You can optionally declare local modules and their dependencies in package.json.
       }
     }
 
-    local('util'); // Note: will throw an error
+    var util = local('util'); // Note: will throw an error
+    
+    var lib = local('lib'); // Note: will throw an error if in some source file in core 
 
-
-## ToDo
-* Verify absense of cyclical dependencies
+Also, cyclical dependencies are rejected.

@@ -1,0 +1,10 @@
+{
+  "config": {
+    "@larsthorup/local": {
+      "dependencies": {
+        "core": ["lib"],
+        "lib": ["core"]
+      }
+    }
+  }
+}
