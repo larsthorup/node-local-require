@@ -12,5 +12,15 @@
   "bugs": {
     "url": "https://github.com/larsthorup/node-local-require/issues"
   },
-  "homepage": "https://github.com/larsthorup/node-local-require#readme"
+  "homepage": "https://github.com/larsthorup/node-local-require#readme",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
