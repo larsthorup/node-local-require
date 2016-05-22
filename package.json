@@ -1,6 +1,6 @@
 {
   "name": "@larsthorup/local",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Simplify requiring local modules",
   "repository": {
     "type": "git",
@@ -20,8 +20,10 @@
     "test": "mocha"
   },
   "dependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5",
     "stack-trace": "0.0.9"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
