@@ -1,5 +1,7 @@
 # node-local-require
 
+[![Build Status](https://travis-ci.org/larsthorup/node-local-require.png)](https://travis-ci.org/larsthorup/node-local-require)
+
 Simplify requiring local modules
 
 The purpose of this module is to make it easy to keep self-contained Node modules in the same repo as the rest of your app during initial development, in such a way that you can easily convert the module to be a real external module eventually. 
