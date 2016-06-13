@@ -1,8 +1,7 @@
 var path = require('path');
 var stackTrace = require('stack-trace');
 
-// Note: we assume that local-require is installed from package.json in the root folder
-var defaultRoot = path.join(__dirname, '../../..');
+var defaultRoot = require('@larsthorup/root');
 
 function local (moduleName, root) {
   root = root || defaultRoot;

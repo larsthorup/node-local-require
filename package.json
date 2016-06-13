@@ -1,6 +1,6 @@
 {
   "name": "@larsthorup/local",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Simplify requiring local modules",
   "repository": {
     "type": "git",
@@ -21,7 +21,8 @@
     "travis": "npm test"
   },
   "dependencies": {
-    "stack-trace": "0.0.9"
+    "stack-trace": "0.0.9",
+    "@larsthorup/root": "0.1.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
