@@ -17,21 +17,21 @@ The purpose of this module is to make it easy to keep self-contained Node module
 
 ## Verification
 
-You can optionally declare local modules and their dependencies in package.json. If so, local() will verify requests against the declaration, unless NODE_ENV is production:
+You can optionally declare local modules in dependency order in package.json. If so, local() will verify requests against the declaration, unless NODE_ENV is production:
 
     { 
       "config": {
         "@larsthorup/local": {
-          "dependencies": {
-            "core": [],
-            "lib": ["core"]
-          }
+          "modules": [
+            "core",
+            "lib"
+          ]
         }
       }
     }
 
     var util = local('util'); // Note: will throw an error
+
+    var core = local('core'); // Note: will succeed if in some source file in lib
     
     var lib = local('lib'); // Note: will throw an error if in some source file in core 
-
-Also, cyclical dependencies are rejected.

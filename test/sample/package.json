@@ -1,10 +1,11 @@
 {
   "config": {
     "@larsthorup/local": {
-      "dependencies": {
-        "core": [],
-        "lib": ["core"]
-      }
+      "modules": [
+        "core",
+        "lib",
+        ""
+      ]
     }
   }
 }
