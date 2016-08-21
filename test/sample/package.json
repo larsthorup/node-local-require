@@ -1,10 +1,11 @@
 {
+  "name": "sample",
   "config": {
     "@larsthorup/local": {
       "modules": [
         "core",
         "lib",
-        ""
+        "sample"
       ]
     }
   }
