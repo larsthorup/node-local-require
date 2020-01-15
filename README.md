@@ -1,5 +1,6 @@
 # node-local-require
 
+[![npm version](https://badge.fury.io/js/%40larsthorup%2Flocal.svg)](https://www.npmjs.com/package/@larsthorup/local)
 [![Build Status](https://travis-ci.org/larsthorup/node-local-require.png)](https://travis-ci.org/larsthorup/node-local-require)
 
 Simplify requiring local modules
